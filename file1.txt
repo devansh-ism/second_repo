@@ -1,1 +1,29 @@
 hello from devansh 
+
+
+
+1.) remote repo exist 
+git clone -b "branch" "ssh"
+git add. 
+git commit
+git pull 
+git push
+
+2.) adding local repo to github
+create in github
+git init
+git add .
+git commit
+git remote add origin "ssh"
+git push
+
+3.) branching
+
+git checkout "branch" // 
+git checkout -b "branch"
+git branch "branch name" // just for creating ,not going
+git branch --v// info
+git show origin main
+
+git push origin "local":"remote"
+git remote -v
